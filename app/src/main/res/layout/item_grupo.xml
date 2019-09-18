@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:id="@+id/image_view"
+            android:layout_height="180dp"
+            android:layout_margin="10dp"
+            android:layout_weight="180dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="180dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="titulo"
+            android:id="@+id/titulo"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/fecha"
+            android:layout_height="wrap_content"
+            android:text="lanzado el 2000"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/favorito"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_launcher_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="35dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/opciones"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
