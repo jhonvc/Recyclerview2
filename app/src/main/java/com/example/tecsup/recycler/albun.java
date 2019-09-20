@@ -6,7 +6,7 @@ public class albun {
     String imagen;
     Boolean favorito;
 
-    public albun(String titulo, String fecha_lanzamiento, String imagen, Boolean favorito) {
+    public albun(String titulo, String fecha_lanzamiento,String imagen, Boolean favorito) {
         this.titulo = titulo;
         this.fecha_lanzamiento = fecha_lanzamiento;
         this.imagen = imagen;
